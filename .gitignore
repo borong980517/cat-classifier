@@ -1,0 +1,22 @@
+# 忽略所有 dataset
+dataset/*
+
+# 但保留資料夾結構和 sample 圖片
+!dataset/train/
+!dataset/train/cat/
+!dataset/train/nocat/
+!dataset/val/
+!dataset/val/cat/
+!dataset/val/nocat/
+!dataset/test/
+!dataset/test/cat/
+!dataset/test/nocat/
+
+# 保留小樣本（你自己挑幾張圖）
+!dataset/train/cat/sample1.jpg
+!dataset/train/nocat/sample1.jpg
+!dataset/val/cat/sample1.jpg
+!dataset/val/nocat/sample1.jpg
+!dataset/test/cat/sample1.jpg
+!dataset/test/nocat/sample1.jpg
+``
